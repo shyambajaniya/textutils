@@ -1,0 +1,19 @@
+what we learned
+in react we use camel casing ....
+bcz js also use that 
+
+and react is a framework not a library, many peoplle dsay that it is a library bcz it is always compared with the angular that is a frame work that goes by typescript
+useState 
+
+const [text,setText] = useState("")
+
+const onclick = () => {
+    const newText = text.toupperCase();
+    setText(newText)
+}
+
+
+and this hook we have to use in button or text by putting like below,
+
+<button value = {text} > this is a button </button>
+
